@@ -21,7 +21,7 @@ app.use(cookieParser());
 // cors => cross origin resource sharing
 app.use(
   cors({
-    origin: "*",
+    origin: ["https://havan-client.vercel.app/"],
     credentials: true,
   })
 );
